@@ -1,0 +1,720 @@
+2019-10-20 18:18:44,512 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:18:44,581 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:18:44,581 69     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:18:44,581 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:18:44,581 69     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:18:44,582 70     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:18:44,613 101    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:18:44,613 101    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:18:44,613 101    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:18:44,614 102    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:18:44,652 140    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:18:44,924 412    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1485089044.
+2019-10-20 18:18:44,924 412    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:18:44,926 414    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 18:18:44,970 458    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 18:18:45,005 493    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 18:18:45,007 495    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:18:45,007 495    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:18:45,007 495    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1485089044 to pool.
+2019-10-20 18:33:26,642 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:33:26,730 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:33:26,730 88     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:33:26,731 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:33:26,731 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:33:26,732 90     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:33:26,766 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:26,766 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:26,766 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:26,766 124    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:26,810 168    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:33:27,065 423    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 643290333.
+2019-10-20 18:33:27,066 424    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2657d4dd]
+2019-10-20 18:33:27,067 425    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 18:33:27,098 456    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 18:33:27,119 477    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 18:33:27,121 479    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2657d4dd]
+2019-10-20 18:33:27,121 479    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2657d4dd]
+2019-10-20 18:33:27,121 479    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 643290333 to pool.
+2019-10-20 18:33:50,443 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:33:50,560 117    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:33:50,560 117    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:33:50,560 117    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:33:50,561 118    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:33:50,561 118    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:33:50,609 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:50,609 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:50,609 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:50,609 166    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:33:50,649 206    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:33:50,954 511    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1485089044.
+2019-10-20 18:33:50,954 511    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:33:50,956 513    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 18:33:50,993 550    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 18:33:51,017 574    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 18:33:51,020 577    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:33:51,022 579    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5884a914]
+2019-10-20 18:33:51,022 579    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1485089044 to pool.
+2019-10-20 18:34:05,199 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:34:05,292 93     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:34:05,292 93     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:34:05,293 94     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:34:05,293 94     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:34:05,293 94     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:34:05,329 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:05,329 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:05,329 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:05,329 130    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:05,378 179    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:34:05,640 441    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1899600175.
+2019-10-20 18:34:05,640 441    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:34:05,643 444    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 18:34:05,675 476    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 18:34:05,699 500    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 18:34:05,702 503    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:34:05,702 503    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:34:05,703 504    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1899600175 to pool.
+2019-10-20 18:34:21,895 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:34:22,017 122    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:34:22,017 122    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:34:22,018 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:34:22,018 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:34:22,018 123    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:34:22,069 174    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:22,070 175    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:22,070 175    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:22,070 175    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:34:22,149 254    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:34:22,507 612    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 684566052.
+2019-10-20 18:34:22,507 612    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28cda624]
+2019-10-20 18:34:22,511 616    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 18:34:22,575 680    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 18:34:22,600 705    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 18:34:22,604 709    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@28cda624]
+2019-10-20 18:34:22,604 709    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@28cda624]
+2019-10-20 18:34:22,607 712    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 684566052 to pool.
+2019-10-20 18:35:40,431 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:35:40,573 142    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:35:40,573 142    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:35:40,574 143    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:35:40,575 144    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:35:40,576 145    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:35:40,632 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:35:40,632 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:35:40,632 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:35:40,632 201    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:35:40,722 291    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:35:41,115 684    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 352367347.
+2019-10-20 18:35:41,116 685    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1500b2f3]
+2019-10-20 18:35:41,117 686    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 18:35:41,179 748    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 18:35:41,206 775    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 18:35:41,210 779    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1500b2f3]
+2019-10-20 18:35:41,211 780    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1500b2f3]
+2019-10-20 18:35:41,211 780    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 352367347 to pool.
+2019-10-20 18:36:17,959 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:36:18,098 139    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:36:18,098 139    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:36:18,099 140    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:36:18,100 141    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:36:18,103 144    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:36:18,153 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:36:18,153 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:36:18,153 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:36:18,153 194    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:36:18,247 288    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:36:18,616 657    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1899600175.
+2019-10-20 18:36:18,616 657    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:36:18,620 661    [           main] DEBUG    com.dao.IUserDao.findByName  - ==>  Preparing: select * from user where username like ? 
+2019-10-20 18:36:18,671 712    [           main] DEBUG    com.dao.IUserDao.findByName  - ==> Parameters: %蔡%(String)
+2019-10-20 18:36:18,694 735    [           main] DEBUG    com.dao.IUserDao.findByName  - <==      Total: 1
+2019-10-20 18:36:18,695 736    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:36:18,695 736    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7139992f]
+2019-10-20 18:36:18,696 737    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1899600175 to pool.
+2019-10-20 18:45:42,437 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:45:42,524 87     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:45:42,524 87     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:45:42,525 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:45:42,525 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:45:42,526 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:45:42,568 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:45:42,568 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:45:42,568 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:45:42,569 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:47:02,130 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:47:02,218 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:47:02,218 88     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:47:02,218 88     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:47:02,219 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:47:02,219 89     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:47:02,251 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:47:02,251 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:47:02,251 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:47:02,251 121    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:47:02,253 123    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:47:02,254 124    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:47:02,301 171    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 18:47:02,302 172    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 18:47:02,302 172    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:47:02,302 172    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:47:02,303 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:47:02,303 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2019-10-20 18:47:02,304 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:47:02,304 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:47:02,304 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ' % & findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 18:47:02,310 180    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 18:47:02,311 181    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 18:47:02,385 255    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:47:02,641 511    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 304354378.
+2019-10-20 18:47:02,641 511    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1224144a]
+2019-10-20 18:47:02,643 513    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2019-10-20 18:47:02,680 550    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-10-20 18:47:02,698 568    [           main] DEBUG    com.dao.IAccountDao.findAll  - <==      Total: 3
+2019-10-20 18:47:02,699 569    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1224144a]
+2019-10-20 18:47:02,699 569    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1224144a]
+2019-10-20 18:47:02,699 569    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 304354378 to pool.
+2019-10-20 18:48:52,116 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:48:52,276 160    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:48:52,276 160    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:48:52,276 160    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:48:52,277 161    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:48:52,277 161    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:48:52,353 237    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:48:52,354 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:48:52,354 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:48:52,354 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:48:52,362 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:48:52,362 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:48:52,436 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 18:48:52,438 322    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 18:48:52,440 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:48:52,440 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:48:52,440 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:48:52,440 324    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1  
+2019-10-20 18:48:52,444 328    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:48:52,446 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:48:52,446 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ' % & findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 18:48:52,448 332    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 18:48:52,448 332    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 18:48:52,583 467    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:48:53,018 902    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 257459516.
+2019-10-20 18:48:53,018 902    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f58853c]
+2019-10-20 18:48:53,024 908    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2019-10-20 18:48:53,086 970    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-10-20 18:48:53,126 1010   [           main] DEBUG    com.dao.IAccountDao.findAll  - <==      Total: 3
+2019-10-20 18:48:53,127 1011   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@f58853c]
+2019-10-20 18:48:53,127 1011   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f58853c]
+2019-10-20 18:48:53,127 1011   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 257459516 to pool.
+2019-10-20 18:57:24,812 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:57:24,888 76     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:57:24,888 76     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:57:24,889 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:57:24,889 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:57:24,890 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:57:24,927 115    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:57:24,927 115    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:57:24,927 115    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:57:24,927 115    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:57:24,930 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:57:24,930 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:57:24,977 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 18:57:24,977 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 18:57:24,977 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:57:24,977 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:57:24,977 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:57:24,978 166    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1     findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account  'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 18:57:24,981 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:57:24,981 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:57:24,983 171    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ' % & findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 18:57:24,983 171    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 18:57:24,983 171    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 18:57:25,055 243    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:57:25,314 502    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1848289347.
+2019-10-20 18:57:25,314 502    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 18:57:25,316 504    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2019-10-20 18:57:25,351 539    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-10-20 18:57:25,374 562    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 18:57:25,375 563    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 18:57:25,375 563    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1848289347 to pool.
+2019-10-20 18:58:01,051 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:58:01,128 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:58:01,128 77     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:58:01,128 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:58:01,128 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:58:01,128 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:58:01,161 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:58:01,161 110    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:58:01,162 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:58:01,162 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:58:01,164 113    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:58:01,165 114    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:58:01,213 162    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 18:58:01,213 162    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 18:58:01,213 162    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:58:01,214 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:58:01,214 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:58:01,214 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1     findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account  'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 18:58:01,216 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:58:01,216 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:58:01,216 165    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ' % & findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 18:58:01,218 167    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 18:58:01,218 167    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 18:58:01,286 235    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:58:01,568 517    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1161322357.
+2019-10-20 18:58:01,568 517    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:58:01,570 519    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2019-10-20 18:58:01,618 567    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-10-20 18:58:01,639 588    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:58:01,639 588    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:58:01,639 588    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1161322357 to pool.
+2019-10-20 18:59:21,356 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 18:59:21,452 96     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 18:59:21,452 96     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 18:59:21,452 96     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 18:59:21,453 97     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 18:59:21,453 97     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 18:59:21,487 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:59:21,487 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:59:21,487 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:59:21,487 131    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 18:59:21,489 133    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:59:21,490 134    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:59:21,539 183    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 18:59:21,540 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 18:59:21,540 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 18:59:21,540 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:59:21,540 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 18:59:21,540 184    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1     findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 18:59:21,543 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:59:21,543 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 18:59:21,543 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 ' % & findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 18:59:21,546 190    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 18:59:21,546 190    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 18:59:21,615 259    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 18:59:21,903 547    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1161322357.
+2019-10-20 18:59:21,904 548    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:59:21,905 549    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==>  Preparing: select * from account 
+2019-10-20 18:59:21,944 588    [           main] DEBUG    com.dao.IAccountDao.findAll  - ==> Parameters: 
+2019-10-20 18:59:21,962 606    [           main] DEBUG      com.dao.IUserDao.findById  - ====>  Preparing: select * from user where id=? 
+2019-10-20 18:59:21,962 606    [           main] DEBUG      com.dao.IUserDao.findById  - ====> Parameters: 41(Integer)
+2019-10-20 18:59:21,964 608    [           main] DEBUG      com.dao.IUserDao.findById  - <====      Total: 1
+2019-10-20 18:59:21,964 608    [           main] DEBUG      com.dao.IUserDao.findById  - ====>  Preparing: select * from user where id=? 
+2019-10-20 18:59:21,965 609    [           main] DEBUG      com.dao.IUserDao.findById  - ====> Parameters: 45(Integer)
+2019-10-20 18:59:21,966 610    [           main] DEBUG      com.dao.IUserDao.findById  - <====      Total: 1
+2019-10-20 18:59:21,967 611    [           main] DEBUG    com.dao.IAccountDao.findAll  - <==      Total: 3
+2019-10-20 18:59:21,968 612    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:59:21,968 612    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@45385f75]
+2019-10-20 18:59:21,968 612    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1161322357 to pool.
+2019-10-20 19:06:44,554 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:06:44,683 129    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:06:44,683 129    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:06:44,684 130    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:06:44,684 130    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:06:44,685 131    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:06:44,745 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:06:44,745 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:06:44,745 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:06:44,745 191    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:06:44,750 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:06:44,750 196    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:06:44,836 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:06:44,836 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:06:44,836 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:06:44,836 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:06:44,836 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:06:44,839 285    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:06:44,845 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:06:44,846 292    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:06:44,848 294    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations 'Lorg/apache/ibatis/annotations/Results; id userMap value &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; LAZY &Lorg/apache/ibatis/annotations/Select; select * from user findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:06:44,856 302    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:06:44,857 303    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:06:44,982 428    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:06:45,403 849    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 704106237.
+2019-10-20 19:06:45,403 849    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:06:45,407 853    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:06:45,465 911    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:06:45,545 991    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:06:45,546 992    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:06:45,546 992    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 704106237 to pool.
+2019-10-20 19:09:28,361 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:09:28,442 81     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:09:28,442 81     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:09:28,443 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:09:28,443 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:09:28,443 82     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:09:28,474 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:09:28,474 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:09:28,474 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:09:28,474 113    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:09:28,477 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:09:28,477 116    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:09:28,533 172    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:09:28,534 173    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:09:28,535 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:09:28,535 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:09:28,535 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:09:28,535 174    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:09:28,539 178    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:09:28,539 178    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:09:28,539 178    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; LAZY findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:09:28,542 181    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:09:28,543 182    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:09:28,607 246    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:09:28,891 530    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 704106237.
+2019-10-20 19:09:28,891 530    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:09:28,893 532    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:09:28,929 568    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:09:28,986 625    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:09:28,986 625    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:09:28,986 625    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 704106237 to pool.
+2019-10-20 19:11:24,590 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:11:24,674 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:11:24,674 84     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:11:24,674 84     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:11:24,675 85     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:11:24,676 86     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:11:24,722 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:24,722 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:24,722 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:24,722 132    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:24,727 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:24,727 137    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:24,793 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:11:24,794 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:11:24,795 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:24,795 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:11:24,795 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:11:24,796 206    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:11:24,805 215    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:11:24,806 216    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:11:24,807 217    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:11:24,809 219    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:11:24,813 223    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:11:24,886 296    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:11:25,126 536    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1848289347.
+2019-10-20 19:11:25,127 537    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:11:25,129 539    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:11:25,162 572    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:11:25,184 594    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,185 595    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 41(Integer)
+2019-10-20 19:11:25,187 597    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 2
+2019-10-20 19:11:25,189 599    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,189 599    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 42(Integer)
+2019-10-20 19:11:25,189 599    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,190 600    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,190 600    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 43(Integer)
+2019-10-20 19:11:25,191 601    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,192 602    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,192 602    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 45(Integer)
+2019-10-20 19:11:25,193 603    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 1
+2019-10-20 19:11:25,194 604    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,194 604    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 48(Integer)
+2019-10-20 19:11:25,195 605    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,196 606    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,196 606    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 53(Integer)
+2019-10-20 19:11:25,197 607    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,198 608    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,199 609    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 54(Integer)
+2019-10-20 19:11:25,199 609    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,199 609    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,200 610    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 56(Integer)
+2019-10-20 19:11:25,200 610    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,201 611    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,201 611    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 57(Integer)
+2019-10-20 19:11:25,202 612    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,202 612    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,203 613    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 59(Integer)
+2019-10-20 19:11:25,206 616    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,207 617    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,207 617    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 60(Integer)
+2019-10-20 19:11:25,208 618    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,209 619    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:11:25,209 619    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:11:25,213 623    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:11:25,214 624    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 19:11:25,216 626    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:11:25,216 626    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:11:25,216 626    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1848289347 to pool.
+2019-10-20 19:11:56,819 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:11:56,897 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:11:56,897 78     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:11:56,897 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:11:56,898 79     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:11:56,898 79     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:11:56,944 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:56,944 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:56,944 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:56,944 125    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:11:56,947 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:56,947 128    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:57,006 187    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:11:57,007 188    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:11:57,008 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:11:57,008 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:11:57,008 189    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:11:57,010 191    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:11:57,012 193    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:11:57,012 193    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:11:57,013 194    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; LAZY findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:11:57,015 196    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:11:57,015 196    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:11:57,084 265    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:11:57,341 522    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 704106237.
+2019-10-20 19:11:57,341 522    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:11:57,343 524    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:11:57,375 556    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:11:57,420 601    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:11:57,421 602    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:11:57,421 602    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 704106237 to pool.
+2019-10-20 19:14:42,327 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:14:42,418 91     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:14:42,418 91     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:14:42,418 91     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:14:42,419 92     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:14:42,419 92     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:14:42,464 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:14:42,464 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:14:42,464 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:14:42,464 137    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:14:42,478 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:14:42,478 151    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:14:42,525 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:14:42,525 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:14:42,526 199    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:14:42,526 199    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:14:42,526 199    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:14:42,526 199    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:14:42,528 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:14:42,528 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:14:42,528 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:14:42,530 203    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:14:42,530 203    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:14:42,587 260    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:14:42,855 528    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 704106237.
+2019-10-20 19:14:42,856 529    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:14:42,859 532    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:14:42,892 565    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:14:42,913 586    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,914 587    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 41(Integer)
+2019-10-20 19:14:42,916 589    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 2
+2019-10-20 19:14:42,917 590    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,918 591    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 42(Integer)
+2019-10-20 19:14:42,918 591    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,919 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,919 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 43(Integer)
+2019-10-20 19:14:42,919 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,919 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,919 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 45(Integer)
+2019-10-20 19:14:42,921 594    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 1
+2019-10-20 19:14:42,922 595    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,922 595    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 48(Integer)
+2019-10-20 19:14:42,923 596    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,924 597    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,924 597    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 53(Integer)
+2019-10-20 19:14:42,924 597    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,926 599    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,926 599    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 54(Integer)
+2019-10-20 19:14:42,927 600    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,928 601    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,928 601    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 56(Integer)
+2019-10-20 19:14:42,928 601    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,929 602    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,929 602    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 57(Integer)
+2019-10-20 19:14:42,930 603    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,931 604    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,931 604    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 59(Integer)
+2019-10-20 19:14:42,931 604    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,932 605    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,932 605    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 60(Integer)
+2019-10-20 19:14:42,932 605    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,933 606    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:14:42,933 606    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:14:42,938 611    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:14:42,939 612    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 19:14:42,940 613    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:14:42,941 614    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29f7cefd]
+2019-10-20 19:14:42,941 614    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 704106237 to pool.
+2019-10-20 19:15:33,512 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:15:33,589 77     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:15:33,589 77     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:15:33,590 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:15:33,590 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:15:33,590 78     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:15:33,626 114    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:15:33,626 114    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:15:33,626 114    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:15:33,626 114    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:15:33,629 117    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:15:33,630 118    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:15:33,674 162    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:15:33,675 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:15:33,675 163    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:15:33,676 164    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:15:33,676 164    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:15:33,676 164    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:15:33,678 166    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:15:33,678 166    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:15:33,679 167    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:15:33,683 171    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:15:33,683 171    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:15:33,749 237    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:15:34,015 503    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1848289347.
+2019-10-20 19:15:34,015 503    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:15:34,017 505    [           main] DEBUG       com.dao.IUserDao.findAll  - ==>  Preparing: select * from user 
+2019-10-20 19:15:34,052 540    [           main] DEBUG       com.dao.IUserDao.findAll  - ==> Parameters: 
+2019-10-20 19:15:34,073 561    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,074 562    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 41(Integer)
+2019-10-20 19:15:34,076 564    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 2
+2019-10-20 19:15:34,077 565    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,078 566    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 42(Integer)
+2019-10-20 19:15:34,078 566    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,079 567    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,079 567    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 43(Integer)
+2019-10-20 19:15:34,080 568    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,081 569    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,081 569    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 45(Integer)
+2019-10-20 19:15:34,082 570    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 1
+2019-10-20 19:15:34,084 572    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,084 572    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 48(Integer)
+2019-10-20 19:15:34,085 573    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,086 574    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,086 574    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 53(Integer)
+2019-10-20 19:15:34,087 575    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,088 576    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,089 577    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 54(Integer)
+2019-10-20 19:15:34,089 577    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,091 579    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,091 579    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 56(Integer)
+2019-10-20 19:15:34,094 582    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,095 583    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,095 583    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 57(Integer)
+2019-10-20 19:15:34,096 584    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,096 584    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,097 585    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 59(Integer)
+2019-10-20 19:15:34,097 585    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,098 586    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,098 586    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 60(Integer)
+2019-10-20 19:15:34,098 586    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,099 587    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:15:34,099 587    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:15:34,104 592    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:15:34,104 592    [           main] DEBUG       com.dao.IUserDao.findAll  - <==      Total: 12
+2019-10-20 19:15:34,105 593    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:15:34,105 593    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e2aa843]
+2019-10-20 19:15:34,105 593    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1848289347 to pool.
+2019-10-20 19:16:54,706 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:16:54,857 151    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:16:54,858 152    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:16:54,859 153    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:16:54,860 154    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:16:54,860 154    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:16:54,914 208    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:16:54,914 208    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:16:54,914 208    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:16:54,914 208    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:16:54,922 216    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:16:54,923 217    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:16:55,000 294    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:16:55,002 296    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:16:55,002 296    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:16:55,002 296    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:16:55,002 296    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:16:55,004 298    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:16:55,005 299    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:16:55,006 300    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:16:55,008 302    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:16:55,011 305    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:16:55,011 305    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:16:55,093 387    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:16:55,473 767    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 159475521.
+2019-10-20 19:16:55,475 769    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:16:55,480 774    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 19:16:55,526 820    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 19:16:55,562 856    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:16:55,562 856    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:16:55,564 858    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:16:55,564 858    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 19:16:55,567 861    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:16:55,567 861    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:16:55,568 862    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 159475521 to pool.
+2019-10-20 19:20:50,359 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:20:50,494 135    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:20:50,495 136    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:20:50,495 136    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:20:50,497 138    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:20:50,497 138    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:20:50,556 197    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:20:50,557 198    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:20:50,557 198    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:20:50,557 198    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:20:50,561 202    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:20:50,562 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:20:50,631 272    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:20:50,633 274    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:20:50,633 274    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:20:50,633 274    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:20:50,634 275    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:20:50,635 276    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:20:50,639 280    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:20:50,640 281    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:20:50,641 282    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 / - . findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:20:50,643 284    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:20:50,643 284    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:20:50,725 366    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:20:51,107 748    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 159475521.
+2019-10-20 19:20:51,107 748    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:20:51,110 751    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 19:20:51,160 801    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 19:20:51,192 833    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:20:51,192 833    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:20:51,194 835    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:20:51,195 836    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 19:20:51,196 837    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:20:51,196 837    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:20:51,196 837    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 159475521 to pool.
+2019-10-20 19:20:51,196 837    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:20:51,197 838    [           main] DEBUG source.pooled.PooledDataSource  - Checked out connection 159475521 from pool.
+2019-10-20 19:20:51,197 838    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@9816741]
+2019-10-20 19:20:51,197 838    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 19:20:51,197 838    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 19:20:51,202 843    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:20:51,203 844    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:20:51,207 848    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:20:51,213 854    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 19:23:33,882 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-20 19:23:33,989 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-20 19:23:33,989 107    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-20 19:23:33,989 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-20 19:23:33,989 107    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-20 19:23:33,990 108    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-20 19:23:34,034 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:23:34,034 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:23:34,034 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:23:34,034 152    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-20 19:23:34,037 155    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:23:34,037 155    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:23:34,085 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IAccountDao.class
+2019-10-20 19:23:34,085 203    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: IUserDao.class
+2019-10-20 19:23:34,086 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao
+2019-10-20 19:23:34,086 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:23:34,086 204    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IAccountDao.class
+2019-10-20 19:23:34,087 205    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 $ " # findAll ()Ljava/util/List; 	Signature '()Ljava/util/List<Lcom/domin/Account;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from account 'Lorg/apache/ibatis/annotations/Results; id 
+2019-10-20 19:23:34,089 207    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:23:34,089 207    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/workspace-idea/java/MyStudyMybatis/day04_04OneToMany/target/classes/com/dao/IUserDao.class
+2019-10-20 19:23:34,091 209    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 1 / 0 findAll ()Ljava/util/List; 	Signature $()Ljava/util/List<Lcom/domin/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id userMap &Lorg/apache/ibatis/annotations/Result;    column property userId username userName address userAddress sex userSex birthday userBirthday accounts many $Lorg/apache/ibatis/annotations/Many; select $com.dao.IAccountDao.findAccountByUid 	fetchType %Lorg/apache/ibatis/mapping/FetchType; DEFAULT findById %(Ljava/lang/Integer;)Lcom/domin/User; )Lorg/apache/ibatis/annotations/ResultMap; !select * from user where id=#{id} 
+2019-10-20 19:23:34,095 213    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IAccountDao matches criteria [is assignable to Object]
+2019-10-20 19:23:34,095 213    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.dao.IUserDao matches criteria [is assignable to Object]
+2019-10-20 19:23:34,172 290    [           main] DEBUG               com.dao.IUserDao  - Cache Hit Ratio [com.dao.IUserDao]: 0.0
+2019-10-20 19:23:34,178 296    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2019-10-20 19:23:34,455 573    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1824837049.
+2019-10-20 19:23:34,456 574    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6cc4cdb9]
+2019-10-20 19:23:34,458 576    [           main] DEBUG      com.dao.IUserDao.findById  - ==>  Preparing: select * from user where id=? 
+2019-10-20 19:23:34,493 611    [           main] DEBUG      com.dao.IUserDao.findById  - ==> Parameters: 61(Integer)
+2019-10-20 19:23:34,515 633    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====>  Preparing: select * from account where uid = ? 
+2019-10-20 19:23:34,518 636    [           main] DEBUG o.IAccountDao.findAccountByUid  - ====> Parameters: 61(Integer)
+2019-10-20 19:23:34,520 638    [           main] DEBUG o.IAccountDao.findAccountByUid  - <====      Total: 0
+2019-10-20 19:23:34,521 639    [           main] DEBUG      com.dao.IUserDao.findById  - <==      Total: 1
+2019-10-20 19:23:34,530 648    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6cc4cdb9]
+2019-10-20 19:23:34,531 649    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6cc4cdb9]
+2019-10-20 19:23:34,531 649    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1824837049 to pool.
+2019-10-20 19:23:34,535 653    [           main] DEBUG               com.dao.IUserDao  - Cache Hit Ratio [com.dao.IUserDao]: 0.5

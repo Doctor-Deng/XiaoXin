@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 配置 properties -->
+    <properties resource="jdbcConfig.properties"></properties>
+
+    <typeAliases>
+        <!-- 用于指定要配置别名的包，当指定之后，该包下的实体类都会注册别名，并且类名就是别名，不再区分大小写-->
+        <package name="com.domain"></package>
+    </typeAliases>
+
+    <!--配置环境-->
+    <environments default="mysql">
+        <!--配置 mysql 环境-->
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+
+            <!--配置数据库连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"></property>
+                <property name="url" value="${jdbc.url}"></property>
+                <property name="username" value="${jdbc.username}"></property>
+                <property name="password" value="${jdbc.password}"></property>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--配置映射文件的位置-->
+    <mappers>
+        <package name="com.dao"></package>
+    </mappers>
+</configuration>

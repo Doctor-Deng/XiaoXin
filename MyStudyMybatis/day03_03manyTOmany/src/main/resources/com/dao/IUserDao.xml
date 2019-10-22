@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 是确定哪个接口 -->
+ <mapper namespace="com.dao.IUserDao">
+
+    <!-- 定义 User 的 resultMap-->
+    <resultMap id="userMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+    <collection property="roles" ofType="role">
+        <id property="roleId" column="rid"></id>
+        <result property="roleName" column="role_name"></result>
+        <result property="roleDesc" column="role_desc"></result>
+    </collection>
+    </resultMap>
+
+    <!-- id 是确定哪个方法 resultType 表示封装到哪里去 -->
+    <select id="findAll" resultMap="userMap">
+        <!-- 查询所有的操作 -->
+        SELECT u.*,r.id as rid,r.role_name,r.role_desc from user u
+        left OUTER join user_role ur on u.id = ur.uid
+        left OUTER join role r on r.id = ur.rid;
+    </select>
+
+</mapper>

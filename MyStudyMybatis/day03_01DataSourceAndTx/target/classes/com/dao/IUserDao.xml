@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace 是确定哪个接口 -->
+ <mapper namespace="com.dao.IUserDao">
+
+    <!-- 如果在 User 实体中的属性，和数据库的一致，就不用进行这种配置-->
+    <!-- 配置  查询结果的列名和实体类的属性名的对应关系 -->
+    <resultMap id="userMap" type="uSer">
+        <!-- 主键字段的对应配置 -->
+        <!-- property 里写的是你在 User 实体类里定义的，与 column 相对应-->
+        <id property="userId" column="id"></id>
+
+        <!-- 非主键字段的对应配置 -->
+        <result property="userName" column="username"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userBirthday" column="birthday"></result>
+        <result property="userAddress" column="address"></result>
+
+    </resultMap>
+
+    <!-- id 是确定哪个方法 resultType 表示封装到哪里去 -->
+    <select id="findAll" resultMap="userMap">
+        <!-- 查询所有的操作 -->
+        <!-- select id as userId, username as userName, birthday as userBirthday, sex as userSex, address as userAdress from user; -->
+        select * from user;
+    </select>
+    
+    <!-- 保存用户 -->
+    <insert id="saveUser" parameterType="user">
+        <!-- 配置插入操作后，获取插入数据的 id -->
+        <selectKey keyProperty="userId" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,address,sex,birthday)values(#{userName},#{userAddress},#{userSex},#{userBirthday});
+    </insert>
+
+    <!-- 修改用户 -->
+    <update id="updateUser" parameterType="user">
+        update user set username=#{userName},address=#{userAddress},sex=#{userSex},birthday=#{userBirthday} where id=#{userId};
+    </update>
+
+    <!-- 删除用户 -->
+    <delete id="delUser" parameterType="java.lang.Integer">
+        delete from user where id=#{uid};
+    </delete>
+
+    <!-- 根据 id 查询用户 -->
+    <select id="findById" parameterType="int" resultType="com.domain.User">
+        select * from user where id=#{uid}
+    </select>
+
+    <!-- 根据名称模糊查询用户 -->
+    <select id="findByName" parameterType="string" resultType="com.domain.User">
+           <!-- 注意，第一种写法的 ${value} 是固定的，不能改其它的名字。相比第二种写法，好处就是在测试类中 testfindByName 里面的名字不用写 % 了-->
+           select * from user where username like '%${value}%'
+           <!-- 第二种写法 -->
+           <!-- select * from user where username like #{name} -->
+    </select>
+
+    
+    <!-- 获取用户的总记录条数 -->
+    <select id="findTotal" resultType="int">
+        select count(id) from user;
+    </select>
+
+    <!-- 根据 queryVo 的条件查询用户 -->
+    <select id="findUserByVo" parameterType="com.domain.QueryVo" resultType="com.domain.User">
+        select * from user where username like #{user.username};
+    </select>
+</mapper>
